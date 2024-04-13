@@ -1,0 +1,12 @@
+.top__image {
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+}
+.top__image .the__logo {
+    background-image: url('https: //1000logos.net/wp-content/uploads/2017/05/Netflix-symbol.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

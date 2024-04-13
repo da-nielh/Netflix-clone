@@ -1,0 +1,104 @@
+.header__outer__container {
+    height: 10vh;
+    background-color: rgb(20, 20, 20);
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    color: #fff;
+}
+
+.header__container {
+    display: flex;
+    width: 95%;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header__left__wrapper .link__wrapper ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.header__left__wrapper .link__wrapper ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    display: none;
+}
+
+.header__left__wrapper .link__wrapper ul li a:hover {
+    color: #cecece;
+}
+
+.header__right__wrapper .search__icon,
+.header__right__wrapper .icon {
+    display: flex;
+}
+
+.header__right__wrapper .other__icon {
+    /* font-size: 5em; */
+    display: none;
+}
+
+.icons {
+    padding: 10px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.icons .notification__number {
+    background-color: red;
+    padding: 5px;
+    position: absolute;
+    top: 16px;
+    left: 40px;
+    border-radius: 50px;
+    border: rgb(20, 20, 20);
+    border-style: solid;
+    font-size: small;
+}
+
+.header__container .header__left__wrapper img {
+    max-width: 130px;
+}
+
+@media screen and (min-width: 721px) and (max-width: 960px){
+    .header__container .header__right__wrapper .more__icon {
+        display: none;
+    }
+    .header__container .header__right__wrapper .icon {
+        display: flex;
+    }
+    .header__right__wrapper .other__icon {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1920px) {
+    .header__container .header__left__wrapper .icons {
+        display: none;
+    }
+
+    .header__container .header__right__wrapper .more__icon {
+        display: none;
+    }
+
+    .header__left__wrapper .link__wrapper ul li a {
+        display: block;
+    }
+    .header__left__wrapper .link__wrapper ul {
+        width: 650px;
+    }
+    .header__right__wrapper .other__icon {
+        display: flex;
+    }
+}
