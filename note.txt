@@ -1,6 +1,0 @@
-https://preview.themeforest.net/item/hendrix-personal-portfolio-html-template/full_screen_preview/21232932?_ga=2.12802039.1313324783.1711869967-926141384.1696747486
-
-write a description about learning React web-development
-
-
-API_KEY = 0f7dc1000d1ea098f2fd4885a3189d79
