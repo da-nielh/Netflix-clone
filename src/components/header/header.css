@@ -59,14 +59,14 @@
 
 .icons .notification__number {
     background-color: red;
-    padding: 5px;
+    padding: 4px;
     position: absolute;
     top: 16px;
     left: 40px;
     border-radius: 50px;
     border: rgb(20, 20, 20);
     border-style: solid;
-    font-size: small;
+    font-size: 11px;
 }
 
 .header__container .header__left__wrapper img {
